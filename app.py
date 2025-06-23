@@ -120,8 +120,8 @@ async def convert_to_audio(conversation_text):
     
     # Define voices and rates for each speaker
     voices = {
-        'Alex': ('en-US-ChristopherNeural', '+30%'),      # Faster male voice
-        'Samantha': ('en-US-JennyNeural', '+0%')           # Normal female voice
+        'Alex': ('en-US-ChristopherNeural', '+15%'),      # Faster male voice
+        'Samantha': ('en-US-JennyNeural', '+15%')           # Normal female voice
     }
     
     print(f"Converting {len(segments)} conversation segments to audio...")
